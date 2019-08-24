@@ -15,9 +15,9 @@ $mail->SMTPAuth = true; // authentication enabled
 $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
 $mail->Host = "smtp.gmail.com";
 $mail->Port = 465; // or 587
-$mail->Username = "fredyeah1234@gmail.com";
+$mail->Username = "nyenye@gmail.com";
 $mail->Password = "Cedzkii123!";
-$mail->SetFrom("fredyeah1234@gmail.com",$_POST["emailer_name"]);
+$mail->SetFrom("nyenye@gmail.com",$_POST["emailer_name"]);
 $mail->Subject = $_POST["subject"];
 //$body = "<html>"; 
 ////$body .= "<body style=\"font-family:Verdana, Verdana, Geneva, sans-serif; font-size:12px; color:#666666;\">"; 
